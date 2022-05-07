@@ -1,0 +1,71 @@
+html {
+    background-image: url(https://64.media.tumblr.com/c24c55680e65a6926d3cf8b9c6dbd272/tumblr_inline_n1t4kqp4AM1qfc9y0.gif);
+    background-repeat: repeat;
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: Verdana;
+  }
+  
+  .box {
+    background: rgba(255, 153, 200, 0.7);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ff4272;
+    border-radius: 25px;
+  }
+  h1 {
+    font-size: 11px;
+    border-bottom: 1px solid #ff4272;
+    padding: 2px;
+  }
+  input[type="text"] {
+    font-size: 10px;
+    font-family: Verdana;
+    border: 1px solid #ff4272;
+  }
+  input[type="email"] {
+    font-size: 10px;
+    font-family: Verdana;
+    border: 1px solid #ff4272;
+  }
+  input[type="number"] {
+    font-size: 10px;
+    font-family: Verdana;
+    border: 1px solid #ff4272;
+  }
+  
+  textarea {
+    font-size: 10px;
+    font-family: Verdana;
+    border: 1px solid #ff4272;
+  }
+  button[type="submit"] {
+    font-size: 10px;
+    font-family: Verdana;
+    background: white;
+    border: 1px solid #ff4272;
+    cursor: pointer;
+  }
+  select {
+    border: 1px solid #ff4272;
+  }
+  p {
+    font-size: 11px;
+  }
+  div {
+    padding: 2px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  

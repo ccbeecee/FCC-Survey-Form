@@ -1,0 +1,79 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+<div class="box">
+  <main id="main">
+
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center"> Social Media Survey Form </h1>
+
+        <p id="description" class="description-text center"> Thank you for taking this survey!
+        </p> <img src="https://i.imgur.com/UNWEgsf.gif" alt="A girl sitting on a desk taking selfies">
+      </header>
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Your name</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Your Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email address" required />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Age</label>
+          <input type="number" name="age" id="number" min="5" max="100" class="form-control" placeholder="Age" />
+        </div>
+        <div class="form-group">
+          <p> Which form of social media do you use most often? </p>
+          <select id="dropdown" name="role" class="form-control" required>
+            <option disabled selected value="Select social media platform"></option>
+            <option value="Facebook">Facebook</option>
+            <option value="Snapchat">Snapchat</option>
+            <option value="Instagram">Instagram</option>
+            <option value="TikTok">TikTok</option>
+            <option value="Reddit">Reddit</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p> How many hours a day do you spend on the social media you selected above? </p>
+          <label>
+            <input name="usage" value="0-2hrs" type="radio" class="input-radio" checked />0-2 hours</label>
+          <label>
+            <input name="usage" value="2-4hrs" type="radio" class="input-radio" />2-4 hours</label>
+          <label>
+            <input name="usage" value="4-6hrs" type="radio" class="input-radio" />4-6 hours</label>
+          <label>
+            <input name="usage" value="6-8hrs" type="radio" class="input-radio" />6-8 hours</label>
+        </div>
+
+        <div class="form-group">
+          <p> What do you use social media for?
+            <span class="clue">(Check all that apply)</span>
+          </p>
+          <label><input name="prefer" value="socializing" type="checkbox" />Instant Messaging</label>
+          <label><input name="prefer" value="content-creation" type="checkbox" />Video/Photo Content Creation</label>
+          <label><input name="prefer" value="content-consumption" type="checkbox" />Viewing Content</label>
+
+          <label><input name="prefer" value="blogging" type="checkbox" />Blogging</label>
+          <label><input name="prefer" value="news" type="checkbox" />News</label>
+        </div>
+
+        <div class="form-group">
+          <p> Why is the chosen social media platform your favorite? </p>
+          <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your explanation here..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+
+        </div>
+      </form>
+    </div>
+  </main>
+</div>
+
+</html>
